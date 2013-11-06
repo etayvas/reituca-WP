@@ -1,0 +1,50 @@
+#myform1 label {float:right; width:130px}
+#myform1 label input{border-radius: 0;}
+.info.error {
+    background: url("images/error.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    right: 0;
+    display: none;
+}
+.info.success {
+    background: url("images/success.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    right: 0;
+    display: none;
+}
+.error {
+    color: #ED3D60;
+    float: right;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 4px;
+    margin-top: 2px;
+    text-align: right;
+}
+#popup .popup_content {
+    height: 500px;
+    overflow: visible !important;
+}
+.select.single .select-arrow{background-position:0 -48px;float:left;right:270px}
+.select.single .select-value{padding:1px 5px}
+#popup .wpsform {
+display: none;
+}
+#popup .popup_content li {
+    text-indent: 35px !important;
+    background-position: right !important;
+}
+.simplemodal-wrap{
+    overflow: hidden !important;
+}
+#myform1 input[type="submit"]{
+    background: none repeat scroll 0 0 #4385F4 !important;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 7px;
+}
+#myform1 input[type="submit"]:hover{
+    background: none repeat scroll 0 0 #EA3D60 !important;
+}

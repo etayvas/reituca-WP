@@ -1,0 +1,84 @@
+#myform label {float:right; width:115px;line-height: 15px;}
+#myform label input{padding: 0 5px;border-radius: 0;}
+input[type="text"], input[type="password"], input[type="email"], textarea {
+float: right;
+color: #777777;
+width:100px
+}
+#myform #label_design_header{
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #C3C3C3;
+border-radius: 5px 5px 5px 5px;
+color: #777777;
+display: block;
+float: left;
+padding: 2px;
+margin: 0 4px 0 4px;
+font-size: 13px;
+}
+#border-form {
+border: 2px solid #FF7C12;
+border-radius: 5px 5px 5px 5px;
+padding: 5px 45px 10px;
+}
+#success {
+display: none;
+font-size: 18px;
+margin-top: 7px;
+text-align:center;
+}
+.info.success {
+background: url("images/success.png") no-repeat scroll 0 0 transparent;
+float: right;
+right: 0;
+display: none;
+}
+#myform .error {
+    color: #ED3D60;
+    float: right;
+    font-size: 10px;
+    margin: 0;
+    padding-left: 5px;
+}
+.info.error {
+background: url("images/error.png") no-repeat scroll 0 0 transparent;
+float: right;
+right: 0;
+display: none;
+}
+.select.single .select-arrow{background-position:0 -48px;float:left;right:270px}
+.select.single .select-value{padding:1px 5px}
+#footer{direction:rtl}
+.wps-topbar-content form input[type="submit"] {
+    background: none repeat scroll 0 0 #ED3D60;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 2px 15px;
+}
+.wps-topbar-content form input[type="submit"]:hover {
+background: none repeat scroll 0 0 #3399FF;
+}
+.wps-topbar-content form input[type="text"] {
+float: left;
+border: 1px solid #CCCCCC;
+border-radius: 0 0 0 0;
+}
+#wps-topbar{
+filter:none !important;
+border:none;
+height:45px;
+width: 100%;
+}
+.wps-topbar-content { 
+width: 1200px;
+margin: 0 auto; }
+
+#wps-topbar-close{
+display: none;
+}

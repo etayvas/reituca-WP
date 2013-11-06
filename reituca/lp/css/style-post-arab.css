@@ -1,0 +1,84 @@
+#myform3 label {float:right;width: 140px !important;}
+#myform3 #label_design_post{
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #C3C3C3;
+border-radius: 5px 5px 5px 5px;
+color: #777777;
+display: block;
+float: left;
+padding: 2px;
+margin: 0 4px 0 4px;
+font-size: 13px;
+width: 140px !important;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea {
+float: right;
+}
+#border-form {
+border: 2px solid #FF7C12;
+border-radius: 5px 5px 5px 5px;
+padding: 5px 45px 10px;
+}
+
+#myform3 .info.error {
+background: url("images/error.png") no-repeat scroll 0 0 transparent;
+float: right;
+right: 0;
+display: none;
+}
+#myform3 .info.success {
+background: url("images/success.png") no-repeat scroll 0 0 transparent;
+float: right;
+right: 0;
+display: none;
+}
+#myform3 .error {
+padding-left: 5px;
+color: #ED3D60;
+float: right;
+font-size: 10px;
+margin: 0;
+}
+.select.single .select-arrow{background-position:0 -48px;float:left;right:270px}
+.select.single .select-value{padding:1px 5px}
+.ia_content form input[type="submit"] {
+background: none repeat scroll 0 0 #ED3D60;
+border: medium none;
+border-radius: 5px 5px 5px 5px;
+color: #FFFFFF;
+cursor: pointer;
+font-size: 17px;
+font-weight: bold;
+margin-left: 10px;
+padding: 13px 23px;
+}
+.ia_content form input[type="text"] {
+float: left;
+}
+.ia_content {
+width: 80%;
+margin: 0 auto;
+}
+#ia-optin-form input[type="submit"] {
+
+}
+#ia-optin-form .ia_title {
+margin-bottom: 0 !important;
+}
+#ia-optin-form {
+background: none repeat scroll 0 0 #FFFFCC !important;
+border-color: #000000;
+border-radius: 0 0 0 0;
+box-shadow: none;
+}
+#ia-optin-form input[type="submit"] {
+position: relative !important;
+z-index: 666 !important;
+background: none repeat scroll 0 0 #3399FF !important;
+font-size: 23px !important;
+margin: 5px 93px 5px 0 !important;
+padding: 17px 12px !important;
+}
+#ia-optin-form input[type="submit"]:hover {
+background: none repeat scroll 0 0 #EA3D60 !important;
+}

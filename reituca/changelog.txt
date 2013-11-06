@@ -1,0 +1,95 @@
+=== Reituca Site Scripts ===
+Author Name: Etay Vas
+Author URI: http://etay.me
+Requires at least: 3.0.1, GravityForms 1.7+
+Tested up to: 3.6.1
+Stable tag: 3.6.1
+License: Private Use
+Version: 2.20
+
+== Description ==
+
+This plugin born out of need to handle multiple Lead capture forms and maintaining various landing pages located outside the WP folder.
+Plugin needs GravityForms 1.7+ (http://www.gravityforms.com/).
+
+== Installation ==
+
+Prerequisites
+Install and activate GravityForms (http://www.gravityforms.com/).
+Better to import the needed forms.
+
+1. Upload `reituca.zip` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to Settings - Reituca Scripts and edit the needed fields. 
+
+== Frequently Asked Questions ==
+
+= I get error when trying to activate the plugin =
+
+Make sure you activated the GravityForms plugin.
+
+= I managed to activate the plugin but there are no Lead forms in the website =
+
+You have to import the forms in order to get the in the website..
+
+== Changelog ==
+
+= 2.20 =
+* Removed the auto create translated page. 
+
+= 2.10 =
+* Separated log files for each language.
+* Refresh the page after successful submission.
+* Massive Code changes.
+* Added contact page form + translate. (need exported file and re-install of forms in websites).
+
+= 2.05 =
+* LP- Added lead transmit to email as well.
+* LP- add FR,ES and IT pages.
+* CSS Fixes.
+
+= 2.01 =
+* LP- changed the default RU in non existence LPs to EN.
+* Added missing image in IT leads forms.
+* Added TL for FR/IT/ES.
+* Fixed labels bug in lead forms.
+
+= 2.0 =
+* LP- added FR/ES/IT pages - currently directing to EN till fully created.
+* Diabled the 'add footer text' function till translated.
+* Added CSS Fixes to inject in all templates.
+
+= 1.91 =
+* LP- Fixed CRM leads to be sent to the RU only.
+* LP- Changed version.txt to version.php. 
+* LP- Renamed $LpFooterText to $WebsiteFooterText.
+* Changed the check version method in LP before copy folder.
+* LP- Added FR images.
+
+= 1.7 =
+* Fixed the "Warning: session_start()" in LPs [ob_start()].
+* Added support for footer text in websites (not LPs) (multilingual). (FUNCTION IS READY, NOT FOR USE YET).
+* Arabic text edited.
+* Style fix in top bar (#top_bar_holder .msg_txt img{display: inline !important;}).
+* Don't show popup on category page (!is_category()).
+
+= 1.6 =
+* Added security.
+* is_front_page() changed to $_SERVER["REQUEST_URI"] == '/' .
+* minor style fixes in in-post forms.
+* Show error message if GravityForms is not installed/activated!.
+
+= 1.5 =
+* Added update option.
+* Added code snippets in IW panel to handle the options.
+* Popup widget title to display:none.
+* Set variables in options table.
+* Localized popup.
+* LP auto copy to root folder.
+
+= 1.3 =
+* Multilingual support for the landing pages.
+* Added the setting page in the wp-admin panel.
+
+= 0.5 =
+* Start of project.
